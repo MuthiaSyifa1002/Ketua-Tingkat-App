@@ -1,0 +1,23 @@
+{
+  "name": "ketua-tingkat-app",
+  "version": "1.0.0",
+  "description": "Aplikasi manajemen kelas digital untuk ketua tingkat",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\"",
+    "build": "npm run build --prefix frontend && npm run build --prefix backend",
+    "start": "npm start --prefix backend"
+  },
+  "keywords": [
+    "class management",
+    "ketua tingkat",
+    "jadwal",
+    "absensi",
+    "mading"
+  ],
+  "author": "MuthiaSyifa1002",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
